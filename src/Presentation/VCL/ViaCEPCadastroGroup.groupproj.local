@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/08/02 13:19:23.000.610,C:\Fontes\DesafioSoftplan\src\Presentation\VCL\ViaCEPCadastroGroup.groupproj=C:\Users\thiag\Documents\Embarcadero\Studio\Projects\ProjectGroup1.groupproj</Transaction>
+  </Transactions>
+	<Default.Personality>
+		<Projects ActiveProject="C:\Fontes\DesafioSoftplan\src\Presentation\VCL\ViaCepCadastro.dproj"/>
+	</Default.Personality>
+</BorlandProject>

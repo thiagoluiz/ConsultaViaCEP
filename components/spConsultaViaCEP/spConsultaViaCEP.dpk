@@ -1,0 +1,73 @@
+package spConsultaViaCEP;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS ON}
+{$RANGECHECKS ON}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  xmlrtl,
+  Spring.Base,
+  vcl,
+  dbrtl,
+  FireDAC,
+  FireDACCommonDriver,
+  FireDACCommon;
+
+contains
+  uspConsultaViaCEP in 'uspConsultaViaCEP.pas',
+  uIEnderecoWebViacepRepository in '..\..\src\Domain\Endereco\Interfaces\Repositories\uIEnderecoWebViacepRepository.pas',
+  UEndereco in '..\..\src\Domain\Endereco\Model\UEndereco.pas',
+  uEnderecoResponse in '..\..\src\Application\Endereco\Responses\uEnderecoResponse.pas',
+  uEnderecoRequest in '..\..\src\Application\Endereco\Requests\uEnderecoRequest.pas',
+  uConsultaViaCepHandler in '..\..\src\Application\Endereco\Handlers\uConsultaViaCepHandler.pas',
+  uIServiceViaCEP in '..\..\src\Domain\Endereco\Interfaces\uIServiceViaCEP.pas',
+  uServiceViaCEP in '..\..\src\Infrastructure\Endereco\Services\uServiceViaCEP.pas',
+  uIRequestStrategy in '..\..\src\Application\Endereco\Strategies\uIRequestStrategy.pas',
+  uIRequestStrategyPorCep in '..\..\src\Application\Endereco\Strategies\uIRequestStrategyPorCep.pas',
+  uIRequestStrategyPorEndereco in '..\..\src\Application\Endereco\Strategies\uIRequestStrategyPorEndereco.pas',
+  uFormatoRetornoArquivoEnum in '..\..\src\Domain\Endereco\Enums\uFormatoRetornoArquivoEnum.pas',
+  uFormatStrategyFactory in '..\..\src\Infrastructure\Endereco\Factories\uFormatStrategyFactory.pas',
+  uRequestStrategyFactory in '..\..\src\Infrastructure\Endereco\Factories\uRequestStrategyFactory.pas',
+  uTipoConsultaEnum in '..\..\src\Domain\Endereco\Enums\uTipoConsultaEnum.pas',
+  UIFormatoStrategy in '..\..\src\Infrastructure\Endereco\Strategies\UIFormatoStrategy.pas',
+  uJSONFormatoStrategy in '..\..\src\Infrastructure\Endereco\Strategies\uJSONFormatoStrategy.pas',
+  uRequestStrategyPorCEP in '..\..\src\Infrastructure\Endereco\Strategies\uRequestStrategyPorCEP.pas',
+  uRequestStrategyPorEndereco in '..\..\src\Infrastructure\Endereco\Strategies\uRequestStrategyPorEndereco.pas',
+  uXMLFormatoStrategy in '..\..\src\Infrastructure\Endereco\Strategies\uXMLFormatoStrategy.pas',
+  uIEnderecoMapper in '..\..\src\Domain\Endereco\Interfaces\uIEnderecoMapper.pas',
+  uJsonEnderecoMapper in '..\..\src\Infrastructure\Endereco\Mappers\uJsonEnderecoMapper.pas',
+  uXmlEnderecoMapper in '..\..\src\Infrastructure\Endereco\Mappers\uXmlEnderecoMapper.pas',
+  uEnderecoMapperFactory in '..\..\src\Infrastructure\Endereco\Factories\uEnderecoMapperFactory.pas',
+  uIViacepCadastroController in '..\..\src\Presentation\VCL\uIViacepCadastroController.pas',
+  UResponseStrategyFactory in '..\..\src\Infrastructure\Endereco\Factories\UResponseStrategyFactory.pas',
+  UResponseJSONStrategy in '..\..\src\Infrastructure\Endereco\Strategies\UResponseJSONStrategy.pas',
+  uFuncoesGerais in '..\..\src\Utils\uFuncoesGerais.pas',
+  uEnderecoWebViacepRepository in '..\..\src\Infrastructure\Endereco\Repository\uEnderecoWebViacepRepository.pas',
+  uIEnderecoBDRepository in '..\..\src\Domain\Endereco\Interfaces\Repositories\uIEnderecoBDRepository.pas';
+
+end.
+

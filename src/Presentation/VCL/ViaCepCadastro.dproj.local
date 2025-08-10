@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/08/02 13:10:18.000.373,=C:\Users\thiag\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2025/08/02 13:10:51.000.492,C:\Fontes\DesafioSoftplan\src\Presentation\VCL\ufrmPrincipal.pas=C:\Users\thiag\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2025/08/02 13:10:51.000.492,C:\Fontes\DesafioSoftplan\src\Presentation\VCL\ufrmPrincipal.dfm=C:\Users\thiag\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2025/08/02 13:14:04.000.716,C:\Fontes\DesafioSoftplan\src\Presentation\VCL\ViaCepCadastro.dproj=C:\Users\thiag\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2025/08/02 20:23:04.000.986,=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit1.pas</Transaction>
+    <Transaction>2025/08/02 20:25:59.000.214,C:\Fontes\DesafioSoftplan\src\Application\Endereco\Responses\uEnderecoResponse.pas=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit1.pas</Transaction>
+    <Transaction>2025/08/02 20:56:42.000.720,=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit1.pas</Transaction>
+    <Transaction>2025/08/02 20:58:14.000.012,C:\Fontes\DesafioSoftplan\src\Application\Endereco\Strategies\ConsultaViaCepHandler.pas=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit1.pas</Transaction>
+    <Transaction>2025/08/02 21:05:28.000.005,C:\Fontes\DesafioSoftplan\src\Application\Endereco\Strategies\ConsultaViaCepHandler.pas=</Transaction>
+    <Transaction>2025/08/02 23:28:40.000.558,=C:\Fontes\DesafioSoftplan\src\Ioc\uContainer.pas</Transaction>
+    <Transaction>2025/08/03 13:14:07.000.433,=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit1.pas</Transaction>
+    <Transaction>2025/08/03 13:15:01.000.266,C:\Fontes\DesafioSoftplan\src\Domain\Endereco\Interfaces\uIEnderecoMapper.pas=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit1.pas</Transaction>
+    <Transaction>2025/08/03 13:17:24.000.663,C:\Fontes\DesafioSoftplan\src\Domain\Endereco\Interfaces\uIEnderecoMapper.pas=</Transaction>
+    <Transaction>2025/08/03 14:30:44.000.615,=C:\Fontes\DesafioSoftplan\src\Domain\Endereco\Interfaces\uIEnderecoMapper.pas</Transaction>
+    <Transaction>2025/08/03 14:42:53.000.461,=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit1.pas</Transaction>
+    <Transaction>2025/08/03 14:43:44.000.961,C:\Fontes\DesafioSoftplan\src\Utils\uConverteObjeto.pas=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit1.pas</Transaction>
+    <Transaction>2025/08/03 14:46:38.000.443,=C:\Fontes\DesafioSoftplan\src\Infrastructure\Endereco\Mappers\uJsonEnderecoMapper.pas</Transaction>
+    <Transaction>2025/08/03 14:46:38.000.458,=C:\Fontes\DesafioSoftplan\src\Infrastructure\Endereco\Mappers\uXmlEnderecoMapper.pas</Transaction>
+    <Transaction>2025/08/03 14:57:43.000.694,=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit1.pas</Transaction>
+    <Transaction>2025/08/03 14:59:10.000.842,C:\Fontes\DesafioSoftplan\src\Utils\uFuncoesGerais.pas=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit1.pas</Transaction>
+    <Transaction>2025/08/03 16:42:32.000.327,=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit1.pas</Transaction>
+    <Transaction>2025/08/03 22:08:04.000.864,=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit1.pas</Transaction>
+    <Transaction>2025/08/03 22:08:28.000.911,C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit1.dfm=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\udmMaster.dfm</Transaction>
+    <Transaction>2025/08/03 22:08:28.000.911,C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit1.pas=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\udmMaster.pas</Transaction>
+    <Transaction>2025/08/03 22:45:19.000.161,=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit1.pas</Transaction>
+    <Transaction>2025/08/03 22:45:52.000.946,C:\Fontes\DesafioSoftplan\src\Presentation\VCL\uViacepCadastroController.pas=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit1.pas</Transaction>
+    <Transaction>2025/08/03 22:46:50.000.607,=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit1.pas</Transaction>
+    <Transaction>2025/08/03 22:47:00.000.895,C:\Fontes\DesafioSoftplan\src\Presentation\VCL\IViacepCadastroController.pas=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit1.pas</Transaction>
+    <Transaction>2025/08/03 22:48:39.000.341,C:\Fontes\DesafioSoftplan\src\Presentation\VCL\uIViacepCadastroController.pas=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\IViacepCadastroController.pas</Transaction>
+    <Transaction>2025/08/08 20:10:08.000.589,=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit1.pas</Transaction>
+    <Transaction>2025/08/08 20:10:31.000.358,=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit2.pas</Transaction>
+    <Transaction>2025/08/08 20:11:09.000.732,C:\Fontes\DesafioSoftplan\src\Infrastructure\Endereco\Strategies\UIResponseStrategy.pas=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit2.pas</Transaction>
+    <Transaction>2025/08/08 20:18:04.000.093,=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit2.pas</Transaction>
+    <Transaction>2025/08/08 20:19:17.000.829,C:\Fontes\DesafioSoftplan\src\Infrastructure\Endereco\Strategies\UResponseJSONStrategy.pas=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit2.pas</Transaction>
+    <Transaction>2025/08/08 20:24:14.000.644,=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit2.pas</Transaction>
+    <Transaction>2025/08/08 20:24:29.000.088,C:\Fontes\DesafioSoftplan\src\Presentation\VCL\UIResponseXMLStrategy.pas=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit2.pas</Transaction>
+    <Transaction>2025/08/08 20:27:58.000.080,=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit1.pas</Transaction>
+    <Transaction>2025/08/08 20:28:19.000.001,C:\Fontes\DesafioSoftplan\src\Infrastructure\Endereco\Factories\UResponseStrategyFactory.pas=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit1.pas</Transaction>
+    <Transaction>2025/08/09 18:51:27.000.275,C:\Fontes\DesafioSoftplan\src\Infrastructure\Endereco\Strategies\UIResponseXMLStrategy.pas=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\UIResponseXMLStrategy.pas</Transaction>
+    <Transaction>2025/08/09 19:01:00.000.937,C:\Fontes\DesafioSoftplan\src\Presentation\VCL\uEnderecoWebViacepRepository.dproj=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\ViaCepCadastro.dproj</Transaction>
+    <Transaction>2025/08/09 19:05:40.000.822,C:\Fontes\DesafioSoftplan\src\Presentation\VCL\ViaCepCadastro.dproj=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\uEnderecoWebViacepRepository.dproj</Transaction>
+    <Transaction>2025/08/09 21:14:43.000.486,=C:\Fontes\DesafioSoftplan\src\Domain\Endereco\Interfaces\Repositories\uIEnderecoBDRepository.pas</Transaction>
+    <Transaction>2025/08/09 21:15:22.000.557,=C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit1.pas</Transaction>
+    <Transaction>2025/08/09 21:16:01.000.640,C:\Fontes\DesafioSoftplan\src\Presentation\VCL\Unit1.pas=C:\Fontes\DesafioSoftplan\src\Infrastructure\Endereco\Repository\UEnderecoBDRepository.pas</Transaction>
+  </Transactions>
+</BorlandProject>
