@@ -95,7 +95,7 @@ CREATE TABLE ENDERECOS (
 
 
 ### 2️⃣ Configuração da Conexão
-Edite a unidade de conexão (TConnectionSingleton ou equivalente) para apontar para o seu banco de dados Firebird:
+Edite a unidade de conexão no DataModule: DmMaster, Componente: ConexaoPrinciapl  para apontar para o seu banco de dados Firebird:
 FDConnection.Params.DriverID := 'FB';
 FDConnection.Params.Database := 'C:\caminho\para\banco.fdb';
 FDConnection.Params.UserName := 'SYSDBA';
