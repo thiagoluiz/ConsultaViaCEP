@@ -32,25 +32,26 @@ O sistema segue princípios de **Clean Code** e **SOLID**, utilizando **DDD (Dom
 
 O projeto segue a arquitetura **DDD (Domain-Driven Design)** com separação em camadas:
 
-📂 Application
-├── Services # Casos de uso (coordenação das operações)
-└── DTOs # Objetos de transferência de dados
+📂 **Aplicativo**  
+  📄 **Serviços** — Casos de uso (coordenação das operações)  
+  📄 **DTOs** — Objetos de transferência de dados  
 
-📂 Domain
-├── Entities # Entidades de negócio
-├── Interfaces # Interfaces de repositórios e serviços
-└── Enums # Tipos e constantes de domínio
+📂 **Domínio**  
+  📄 **Entidades** — Entidades de negócio  
+  📄 **Interfaces** — Interfaces de repositórios e serviços  
+  📄 **Enums** — Tipos e constantes de domínio  
 
-📂 Infrastructure
-├── Repositories # Implementações de acesso a dados
-├── Mappers # Conversão entre formatos (JSON/XML -> Objetos)
-└── HttpClients # Consumo da API ViaCEP
+📂 **Infraestrutura**  
+  📄 **Repositórios** — Implementações de acesso a dados  
+  📄 **Mappers** — Conversão entre formatos (JSON/XML → Objetos)  
+  📄 **HttpClients** — Consumo da API ViaCEP  
 
-📂 IoC
-└── Container # Registro das injeções de dependência (Spring4D)
+📂 **IoC**  
+  📄 **Container** — Registro das injeções de dependência (Spring4D)  
 
-📂 Presentation
-└── Forms # Interface gráfica com o usuário
+📂 **Apresentação**  
+  📄 **Formulários** — Interface gráfica com o usuário  
+
 
 
 
