@@ -74,6 +74,10 @@ O projeto segue a arquitetura **DDD (Domain-Driven Design)** com separação em 
 - **Spring4D** configurado no Delphi
 - Banco de dados criado com a tabela de endereços:
 
+### 1️⃣ Criação da Tabela
+
+Execute o script SQL abaixo no seu banco de dados **Firebird** para criar a tabela utilizada pelo projeto:
+
 ```sql
 CREATE TABLE ENDERECOS (
     CEP VARCHAR(9) NOT NULL PRIMARY KEY,
@@ -88,13 +92,16 @@ CREATE TABLE ENDERECOS (
     SIAFI VARCHAR(10)
 );
 
-2️⃣ Configuração da Conexão
+
+### 2️⃣ Configuração da Conexão
 Edite a unidade de conexão (TConnectionSingleton ou equivalente) para apontar para o seu banco de dados Firebird:
 FDConnection.Params.DriverID := 'FB';
 FDConnection.Params.Database := 'C:\caminho\para\banco.fdb';
 FDConnection.Params.UserName := 'SYSDBA';
 FDConnection.Params.Password := 'masterkey';
-3️⃣ Configuração do Library Path
+
+
+### 3️⃣ Configuração do Library Path
 Para que o Delphi encontre as bibliotecas utilizadas (como Spring4D), é necessário configurar o Library Path:
 
 No Delphi, vá em:
