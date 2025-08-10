@@ -11,7 +11,6 @@ O sistema segue princípios de **Clean Code** e **SOLID**, utilizando **DDD (Dom
 - Consulta de CEP por **endereço completo** (UF, cidade e logradouro).
 - Suporte a múltiplos formatos de retorno (**JSON** e **XML**).
 - Persistência dos resultados em banco de dados **Firebird**.
-- Tratamento de erros e validação de indisponibilidade do ViaCEP.
 - Arquitetura modular com injeção de dependência via **Spring4D**.
 
 ---
