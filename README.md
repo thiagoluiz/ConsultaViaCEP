@@ -87,3 +87,21 @@ CREATE TABLE ENDERECOS (
     DDD VARCHAR(5),
     SIAFI VARCHAR(10)
 );
+
+2️⃣ Configuração da Conexão
+Edite a unidade de conexão (TConnectionSingleton ou equivalente) para apontar para o seu banco de dados Firebird:
+FDConnection.Params.DriverID := 'FB';
+FDConnection.Params.Database := 'C:\caminho\para\banco.fdb';
+FDConnection.Params.UserName := 'SYSDBA';
+FDConnection.Params.Password := 'masterkey';
+3️⃣ Configuração do Library Path
+Para que o Delphi encontre as bibliotecas utilizadas (como Spring4D), é necessário configurar o Library Path:
+
+No Delphi, vá em:
+Tools → Options → Language → Delphi → Library → Library Path
+Adicione o caminho onde está instalado o Spring4D, por exemplo:
+
+C:\libs\spring4d\Source
+Salve e feche a janela.
+
+💡 Dica: mantenha as bibliotecas em uma pasta separada do seu código para facilitar manutenção e atualização.
